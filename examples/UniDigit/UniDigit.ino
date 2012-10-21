@@ -25,7 +25,7 @@ void setup() {
 }
 
 void loop() {
-	for (int i = 9; i >= 0; --i) {
+	for (int unsigned = 9; i >= 0; --i) {
 		ss.print(i, 1000);
 	}
 }
